@@ -24,7 +24,7 @@ This repository deals with the codebase of assignment problems related to Goldil
                3. Maven
                4. MySQL
 
-## Problem-5: This problem is implemented using a simple searching Algorithm:
+## Problem-5: Implementation is done using a simple searching Algorithm:
                1. Searching in Hashmap with user input using scanner class
                2. Searching in Hashmap by simply taking the array of keys to be searched
                
