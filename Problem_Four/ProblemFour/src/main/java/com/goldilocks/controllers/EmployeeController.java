@@ -23,7 +23,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService eService;
 	
-	@PostMapping("/employees")
+	@PostMapping("/test")
 	public ResponseEntity<Employee> registerEmployeeHandler(@RequestBody Employee employee) throws EmployeeNotFoundException{
 		
 		Employee savEmployee= eService.registerEmployee(employee);
@@ -31,7 +31,7 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(savEmployee, HttpStatus.CREATED);
 	}
 	
-	@GetMapping(value = "/employees/{Id}")
+	@GetMapping(value = "/test/{Id}")
 	public ResponseEntity<Employee> getEmployeeByIdHandler(@PathVariable("Id") Integer empId) throws EmployeeNotFoundException{
 		
 		Employee employee= eService.getEmployeeById(empId);
@@ -39,7 +39,7 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(employee, HttpStatus.OK);
 	}
 	
-	@GetMapping(value = "/employees")
+	@GetMapping(value = "/test")
 	public ResponseEntity<List<Employee>> getAllEmployeeDetailsHandler() throws EmployeeNotFoundException{
 		
 		List<Employee> employeesList= eService.getAllEmployeeDetails();
@@ -47,7 +47,7 @@ public class EmployeeController {
 		return new ResponseEntity<List<Employee>>(employeesList, HttpStatus.ACCEPTED);
 	}
 	
-	@PutMapping("/employees")
+	@PutMapping("/test")
 	public ResponseEntity<Employee> updateEmployeeHandler(@RequestBody Employee employee) throws EmployeeNotFoundException{
 		
 		Employee updatEmployee = eService.updateEmployee(employee);
@@ -55,7 +55,7 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(updatEmployee, HttpStatus.ACCEPTED);
 	}
 	
-	@DeleteMapping(value = "/employees/{Id}")
+	@DeleteMapping(value = "/test/{Id}")
 	public ResponseEntity<Employee> deleteEmployeeByIdHandler(@PathVariable("Id") Integer empId) throws EmployeeNotFoundException{
 		
 		Employee deleteEmployee= eService.deleteEmployeeById(empId);
