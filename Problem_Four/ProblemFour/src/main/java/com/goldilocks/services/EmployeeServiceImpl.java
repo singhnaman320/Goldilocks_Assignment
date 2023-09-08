@@ -37,7 +37,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 		
 		if(employees.isEmpty()) {
 			
-			throw new EmployeeNotFoundException("Unable to find");
+			throw new EmployeeNotFoundException("Unable to find employee");
 		}
 		return employees;
 	}
@@ -56,7 +56,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 			
 		}else {
 			
-			throw new EmployeeNotFoundException("Unable to delete");
+			throw new EmployeeNotFoundException("Unable to delete employee details");
 		}
 	}
 
