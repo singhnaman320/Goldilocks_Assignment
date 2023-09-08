@@ -18,11 +18,16 @@ This repository deals with the codebase of assignment problems related to Goldil
                
                Note: As nothing is mentioned about the problem approach, this problem is solved using Hibernate. 
 
-## Problem-4: To solve this problem, Tech stcks used:
+## Problem-4: To solve this problem, Tech stacks used:
                1. Spring Boot
                2. Hibernate
                3. Maven
                4. MySQL
+
+## Problem-5: This problem is implemented using a simple searching Algorithm:
+               1. Searching in Hashmap with user input using scanner class
+               2. Searching in Hashmap by simply taking the array of keys to be searched
+               
                
                
                
