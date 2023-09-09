@@ -57,4 +57,5 @@ public class GlobalExceptionHandler {
 		
 		return new ResponseEntity<CustomErrorDetails>(err,HttpStatus.BAD_GATEWAY);
 	}
+	
 }

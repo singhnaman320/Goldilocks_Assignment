@@ -14,4 +14,5 @@ public class CustomErrorDetails {
 	private LocalDateTime localdateTime;
 	private String Message;
 	private String Description;
+	
 }

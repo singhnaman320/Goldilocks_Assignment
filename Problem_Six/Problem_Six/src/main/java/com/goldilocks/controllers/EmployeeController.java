@@ -34,5 +34,6 @@ public class EmployeeController {
 		List<Employee> employeesList= eService.getAllEmployeeDetails();
 		
 		return new ResponseEntity<List<Employee>>(employeesList, HttpStatus.ACCEPTED);
+		
 	}
 }
