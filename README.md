@@ -28,7 +28,7 @@ This repository deals with the codebase of assignment problems related to Goldil
                1. Searching in Hashmap with user input using scanner class
                2. Searching in Hashmap by simply taking the array of keys to be searched
                
-## Problem-6: This problem is similar to problem-4 and solved using Tech Stacks:
+## Problem-6: This problem is similar to problem-4 and solved using:
                1. Spring Boot
                2. Hibernate
                3. Maven
