@@ -38,5 +38,14 @@ This repository deals with the codebase of assignment problems related to Goldil
                1. Write the main class
                2. Compile the problem using [javac CommandLine.java]
                3. To provide an argument and print it in the command line. Use [java CommandLine Hello], Where Hello is the argument
-                       
+
+## Problem-8: MySQL Query:
+              1. ________
+
+## Problem-9: The solution to this problem is provided using: 
+               1. Validation of user input data by fetching from Local storage
+               
+               Note: For a detailed application using React-JS and MongoDB please visit this GitHub repository:
+               GitHub Repository URL: https://github.com/singhnaman320/INotebook
+                     
                
