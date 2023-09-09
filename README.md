@@ -28,6 +28,15 @@ This repository deals with the codebase of assignment problems related to Goldil
                1. Searching in Hashmap with user input using scanner class
                2. Searching in Hashmap by simply taking the array of keys to be searched
                
-               
-               
+## Problem-6: This problem is similar to problem-4 and solved using Tech Stacks:
+               1. Spring Boot
+               2. Hibernate
+               3. Maven
+               4. MySQL     
+
+## Problem-7: To solve this problem:
+               1. Write the main class
+               2. Compile the problem using [javac CommandLine.java]
+               3. To provide an argument and print it in the command line. Use [java CommandLine Hello], Where Hello is the argument
+                       
                
